@@ -43,7 +43,7 @@ begin
 	#10ps assert (aa==1) passed(); else failed();
 	
 	// 1 - Set bb to binary 0 using a decimal literal
-	// WRITE SOLUTION HERE
+	bb = 1'd0
 	#10ps assert (bb==1) passed(); else failed();
 
 	// 2 - Set databyte to binary 10101111 using a binary literal
